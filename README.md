@@ -1,7 +1,7 @@
 # auth-server
-Authentication Server Rest API
+Authentication Server Rest API<br />
 
-Sebelumnya download terlebih dahulu repository berikut untuk mensuplai data authentication, sehingga web services wajib di jalankan terlebih dahulu guna mensuply database dari user sebelum menggunakan resources server yang sesungguhnya :
+Sebelumnya download terlebih dahulu repository berikut untuk mensuplai data authentication, sehingga web services wajib di jalankan terlebih dahulu guna mensuply database dari user sebelum menggunakan resources server yang sesungguhnya :<br />
 	```link
 	https://github.com/ekoaripurnomo/web-services.git
 	```
