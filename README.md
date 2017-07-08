@@ -82,11 +82,11 @@ Sebelumnya download terlebih dahulu repository berikut untuk mensuplai data auth
 * create login.html di folder templates
 	```txt
 	put css file on /static/css/
-														bootstrap.min.css
-														bootstrap-theme.min.css
-														app.css
+								bootstrap.min.css
+								bootstrap-theme.min.css
+								app.css
 	put js file on /static/js/
-														bootstrap.min.js
+								bootstrap.min.js
 	```
 	login.html :
 	```html
