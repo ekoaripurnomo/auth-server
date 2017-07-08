@@ -12,7 +12,7 @@ Sebelumnya download terlebih dahulu repository berikut untuk mensuplai data auth
 *  extract hasil generate, import ke eclipse
 * run gradle bootRun, ada error dengan database
 * konfigurasi application.properties lalu set jdbc dan yang laiinya dbi
-
+	```txt
 	spring.datasource.url=jdbc:mysql://192.168.227.133:3306/latihan
 	spring.datasource.username=root
 	spring.datasource.password=123456
@@ -29,7 +29,7 @@ Sebelumnya download terlebih dahulu repository berikut untuk mensuplai data auth
 	spring.thymeleaf.cache=false
 	spring.resources.static-locations=${project.base-dir}/src/main/resources/static/
 	spring.resources.cache-period=0
-	
+	```
 * run gradle bootRun sudah bisa, tetapi halaman login masih default security dependency dan security password masih di suplai dari console
 
 * untuk mengarahkan login ke halaman yang diingin maka perlu di konfigurasi terlebih dahulu sbb:
