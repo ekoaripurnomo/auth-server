@@ -145,7 +145,8 @@ Sebelumnya download terlebih dahulu repository berikut untuk mensuplai data auth
 	```txt
 	compile('org.springframework.security.oauth:spring-security-oauth2')
 	```
-* cretae OAuth2Configuration.java
+* cretae OAuth2Configuration.java di package id.co.hanoman.auth-server.config
+
 * extends class dengan AuthorizationServerConfigurerAdapter
 	```java
 	@Configuration
@@ -223,7 +224,7 @@ Sebelumnya download terlebih dahulu repository berikut untuk mensuplai data auth
 	}
 	```
 *	Forbidden karena method configure(AuthorizationServerSecurityConfigurer security) belum dibuat, method ini berfungsi untuk check token
-	buat dulu methode tsb :
+	buat dulu methode tsb di OAuth2Configuration.java:
 	```java
 	@Override
 	public void configure(AuthorizationServerSecurityConfigurer security) throws Exception {
