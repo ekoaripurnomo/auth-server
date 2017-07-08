@@ -142,8 +142,9 @@ Sebelumnya download terlebih dahulu repository berikut untuk mensuplai data auth
 * run gradle bootRun sudah bisa login dari database 
 
 * add OAuth2 dependencies ke gradle
+	```txt
 	compile('org.springframework.security.oauth:spring-security-oauth2')
-
+	```
 * cretae OAuth2Configuration.java
 * extends class dengan AuthorizationServerConfigurerAdapter
 	```java
@@ -173,6 +174,7 @@ Sebelumnya download terlebih dahulu repository berikut untuk mensuplai data auth
 * ketika muncul pilihan scope, klik approve and authorize
 * after authorize will get code( pada url)  : http://example.com/?code=yXm3B5
 * Get Token open RestAPI Console App
+	```txt
 	Input :
 	Target Request URI = http://localhost:10000/oauth/token
 	Body Content Header Content Type = application/x-www-form-urlencoded
@@ -185,6 +187,7 @@ Sebelumnya download terlebih dahulu repository berikut untuk mensuplai data auth
 		password=hanoman123
 	
 	Click POST
+	```
 		
 	Response, reponse body :
 	```
@@ -197,6 +200,7 @@ Sebelumnya download terlebih dahulu repository berikut untuk mensuplai data auth
 	}
 	```
 * Check token open RestAPI Console App
+	```txt
 	Input :
 	Target Request URI = http://localhost:10000/oauth/check_token
 	Body Content Header Content Type = application/x-www-form-urlencoded
@@ -207,7 +211,7 @@ Sebelumnya download terlebih dahulu repository berikut untuk mensuplai data auth
 		password=hanoman123
 	
 	Click POST
-		
+	```
 	Response, reponse body :
 	```
 	{
