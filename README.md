@@ -124,7 +124,7 @@ Sebelumnya download terlebih dahulu repository berikut untuk mensuplai data auth
 	
 * login sudah bisa dengan custom halaman login, tetapi masih menggunakan user password default generate console
 
-* create login use user password from database add method configure(AuthenticationManagerBuilder auth)....
+* create login use user password from database add method configure(AuthenticationManagerBuilder auth).... di SecurityConfiguration.java
 	```java
 	@Autowired
 	private DataSource dataSource;
