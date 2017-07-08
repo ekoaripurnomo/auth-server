@@ -80,13 +80,14 @@ Sebelumnya download terlebih dahulu repository berikut untuk mensuplai data auth
 	```
 * run gradle bootRun error, karena file login.html belum ada tetapi sudah mau mencari file login.html di folder templates
 * create login.html di folder templates
+	```txt
 	put css file on /static/css/
 														bootstrap.min.css
 														bootstrap-theme.min.css
 														app.css
 	put js file on /static/js/
 														bootstrap.min.js
-														
+	```
 	login.html :
 	```html
 	<!DOCTYPE html>
